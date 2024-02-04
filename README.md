@@ -7,17 +7,20 @@
   Writ Design System
 </h1>
 <p align="center">
-  [`Writ`](https://www.poewiki.net/wiki/The_Maven%27s_Writ) - without `(The Maven's) Writ` there is no access to Crucible, similarly without design system there is no website. 
+  <i><u>Writ</u>- without <a href="https://www.poewiki.net/wiki/The_Maven%27s_Writ" target="_blank">(The Maven's) Writ</a> there is no <a href="https://www.poewiki.net/wiki/The_Maven%27s_Crucible" target="_blank">(The Maven's) Crucible</a>, similarly without a <a href="https://github.com/exile-watch/writ">design system</a> there is no <a href="https://github.com/exile-watch/crucible">user facing website</a>.</i>
 </p>
 
 ## Description
 
-`Writ Design System` is based on real-world situations. `Writ Design System` provides UI components to help contributors work more efficiently, and to make `Writ` modules more cohesive.
+_Writ Design System_ is based on real-world codebases. 
 
-While `Writ Design System` is not yet accessibility friendly as well as not thoroughly tested, this will be changed in the future.
+_Writ Design System_ provides UI components to help contributors work more efficiently, and to make Writ` modules more cohesive.
 
-Aim of `Writ Design System` is to provide high quality experience for both, developers and users, that effortlessly scales across IDK modules.
-`Writ Design System` is intended for all platforms. This may not be the case in the MVP (Minimum Viable Product) phase, but it sets a ground up for the future.
+While _Writ Design System_ is not yet accessibility friendly as well as not thoroughly tested, this will be changed in the future.
+
+Aim of the _Writ Design System_ is to provide high quality experience for both, developers and users, that effortlessly scales across _Writ_ modules.
+
+_Writ Design System_ is intended for all platforms and latest browsers. This may not be the case in the MVP (Minimum Viable Product) phase, but it sets a ground up for the future.
 
 ## Getting started
 
