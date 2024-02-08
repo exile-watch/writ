@@ -4,7 +4,6 @@ export * from './Card/Card';
 export * from './Heading/Heading';
 export * from './Input/Input';
 export * from './InputGroup/InputGroup';
-export * from './Loader/Loader';
 export * from './Message/Message';
 export * from './MissingContent/MissingContent';
 export * from './PageLoader/PageLoader';
