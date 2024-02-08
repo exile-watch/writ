@@ -1,6 +1,6 @@
 {
   "name": "@exile-watch/ids-react",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Shared design system of React components for exile.watch fronted projects",
   "homepage": "https://github.com/exile-watch/writ/pkgs/npm/ids-react",
   "repository": {
