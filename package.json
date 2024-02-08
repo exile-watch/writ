@@ -17,7 +17,6 @@
     "typecheck": "lerna run typecheck"
   },
   "devDependencies": {
-    "@exile-watch/biome-config": "^0.1.2",
     "@exile-watch/typescript-config": "^0.2.0",
     "lerna": "^8.0.2"
   },
