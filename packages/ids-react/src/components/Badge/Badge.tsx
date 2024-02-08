@@ -15,4 +15,4 @@ const Badge = ({ children, className, onClick }: BadgeProps) => (
   </div>
 );
 
-export default Badge;
+export { Badge };

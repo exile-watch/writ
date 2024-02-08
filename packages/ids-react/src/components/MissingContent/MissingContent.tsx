@@ -1,7 +1,7 @@
 import React from 'react';
 import cx from 'classnames';
 
-import { RedirectIcon } from '@exile-watch/ids-icons';
+import RedirectIcon from '@exile-watch/ids-icons/src/RedirectIcon';
 
 import styles from './MissingContent.module.scss';
 
@@ -55,4 +55,4 @@ const MissingContent = ({
   );
 };
 
-export default MissingContent;
+export {MissingContent};

@@ -3,7 +3,7 @@ import cx from 'classnames';
 
 import styles from './Button.module.scss';
 
-export type ButtonProps = {
+type ButtonProps = {
   size?: 'medium' | 'large';
   variant?: 'primary' | 'secondary' | 'tertiary';
   /** Disabled state overrides styles from other states */
@@ -38,4 +38,4 @@ const Button = ({
   </button>
 );
 
-export default Button;
+export {Button};

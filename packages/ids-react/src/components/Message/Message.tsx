@@ -1,11 +1,13 @@
 import React, { ReactNode } from 'react';
 import cx from 'classnames';
 
-import { ErrorIcon, InfoIcon, WarningIcon } from '@exile-watch/ids-icons';
+import ErrorIcon from '@exile-watch/ids-icons/src/ErrorIcon';
+import InfoIcon from '@exile-watch/ids-icons/src/InfoIcon';
+import WarningIcon from '@exile-watch/ids-icons/src/WarningIcon';
 
 import styles from './Message.module.scss';
 
-export type MessageProps = {
+type MessageProps = {
   type: 'info' | 'locked' | 'success' | 'warning' | 'error';
   children: ReactNode;
   className?: string;
@@ -48,4 +50,4 @@ const Message = ({ type, children, size = 'medium', className }: MessageProps) =
   </div>
 );
 
-export default Message;
+export {Message};

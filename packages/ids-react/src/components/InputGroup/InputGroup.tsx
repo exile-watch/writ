@@ -10,7 +10,7 @@ type InputGroupComposition = {
   Append?: InputGroupAppendProps;
 };
 
-export type InputGroupProps = {
+type InputGroupProps = {
   children?: ReactNode;
 } & InputGroupComposition;
 
@@ -23,4 +23,4 @@ const InputGroup = ({ children, ...props }: InputGroupProps) => (
 InputGroup.Prepend = InputGroupPrepend;
 InputGroup.Append = InputGroupAppend;
 
-export default InputGroup;
+export {InputGroup};

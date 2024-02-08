@@ -3,7 +3,7 @@ import cx from 'classnames';
 
 import styles from './Heading.module.scss';
 
-export type HeadingProps = {
+type HeadingProps = {
   as: 'h1' | 'h2' | 'h3' | 'h4' | 'h5';
   children: ReactNode;
   className?: string;
@@ -31,4 +31,4 @@ Heading.defaultProps = {
   className: null,
 };
 
-export default Heading;
+export {Heading};

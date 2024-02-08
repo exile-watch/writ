@@ -3,7 +3,7 @@ import cx from 'classnames';
 
 import styles from './Card.module.scss';
 
-export type CardProps = {
+type CardProps = {
   as: 'div' | 'section' | 'ul';
   children: ReactNode;
   className?: string;
@@ -18,4 +18,4 @@ const Card = ({ children, as: T = 'div', className, style, locked = false }: Car
   </T>
 );
 
-export default Card;
+export {Card};

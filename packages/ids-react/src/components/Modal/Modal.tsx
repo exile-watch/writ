@@ -9,7 +9,7 @@ import ModalHeader from './ModalHeader/ModalHeader';
 
 import styles from './Modal.module.scss';
 
-export type ModalProps = {
+type ModalProps = {
   isOpen: boolean;
   toggleModal: () => void;
   title?: ReactNode | string;
@@ -45,4 +45,4 @@ const Modal = ({ isOpen = false, toggleModal, title, children, dataId }: ModalPr
 Modal.Body = ModalBody;
 Modal.Actions = ModalActions;
 
-export default Modal;
+export {Modal};

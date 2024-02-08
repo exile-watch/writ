@@ -3,7 +3,7 @@ import cx from 'classnames';
 
 import styles from './Loader.module.scss';
 
-export type LoaderProps = {
+type LoaderProps = {
   className?: string;
   size?: number;
   thickness?: number;
@@ -16,4 +16,4 @@ const Loader = ({ className, size = 30, thickness = 3 }: LoaderProps) => (
   />
 );
 
-export default Loader;
+export { Loader };
