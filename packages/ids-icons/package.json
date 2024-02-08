@@ -15,13 +15,17 @@
     "dist"
   ],
   "scripts": {
-    "build": "rollup -c",
+    "_clean": "del-cli dist",
+    "_build": "rollup -c",
+    "build": "run-s _clean _build",
     "typecheck": "tsc --noEmit",
     "svgr:icons": "npx @svgr/cli --svgo-config .svgo.json -d packages/ids-icons/src packages/ids-icons/svg --typescript --memo --ref"
   },
   "devDependencies": {
     "@exile-watch/rollup-config": "^0.1.1",
     "@types/react": "^18.2.55",
+    "del-cli": "^5.1.0",
+    "npm-run-all": "^4.1.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
