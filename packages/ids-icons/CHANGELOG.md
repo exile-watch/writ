@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/exile-watch/writ/compare/@exile-watch/ids-icons@0.1.0...@exile-watch/ids-icons@0.2.0) (2024-02-08)
+
+
+### Features
+
+* **packages:** add ids-react ([c098b53](https://github.com/exile-watch/writ/commit/c098b53f85121e27b21571fa72cc86f685a32fb7))
+
+
+
+
+
 # 0.1.0 (2024-02-08)
 
 
