@@ -1,8 +1,8 @@
 import React from 'react';
 import { useCookies } from 'react-cookie';
 
-import SunIcon from '@exile-watch/ids-icons/src/SunIcon';
-import MoonIcon from '@exile-watch/ids-icons/src/MoonIcon';
+import SunIcon from '@exile-watch/writ-icons/src/SunIcon';
+import MoonIcon from '@exile-watch/writ-icons/src/MoonIcon';
 import { Themes } from 'src/types';
 
 import styles from './ThemeSwitcher.module.scss';

@@ -1,12 +1,12 @@
 {
-  "name": "@exile-watch/ids-react",
+  "name": "@exile-watch/writ-react",
   "version": "0.1.2",
   "description": "Shared design system of React components for exile.watch fronted projects",
-  "homepage": "https://github.com/exile-watch/writ/pkgs/npm/ids-react",
+  "homepage": "https://github.com/exile-watch/writ/pkgs/npm/writ-react",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/exile-watch/writ.git",
-    "directory": "packages/ids-react"
+    "directory": "packages/writ-react"
   },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -42,7 +42,7 @@
     "react-dom": "^18.2.0"
   },
   "dependencies": {
-    "@exile-watch/ids-icons": "^0.2.1",
+    "@exile-watch/writ-icons": "^0.2.2",
     "framer-motion": "^11.0.3",
     "is-hotkey": "^0.2.0",
     "react-cookie": "^7.0.2",

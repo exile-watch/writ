@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Meta, Story } from '@storybook/react';
 
 import { Input } from '#components';
-import { LinkIcon } from '@exile-watch/ids-icons';
+import { LinkIcon } from '@exile-watch/writ-icons';
 
 import InputGroup, { InputGroupProps } from './InputGroup';
 
