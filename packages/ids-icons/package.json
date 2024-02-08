@@ -1,0 +1,32 @@
+{
+  "name": "@exile-watch/ids-icons",
+  "version": "0.0.0",
+  "description": "Shared design system of React components for exile.watch fronted projects",
+  "homepage": "https://github.com/exile-watch/writ/pkgs/npm/ids-icons",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exile-watch/writ.git",
+    "directory": "packages/ids-icons"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "typecheck": "tsc --noEmit",
+    "svgr:icons": "npx @svgr/cli --svgo-config .svgo.json -d packages/ids-icons/src packages/ids-icons/svg --typescript --memo --ref"
+  },
+  "devDependencies": {
+    "@exile-watch/rollup-config": "^0.1.1",
+    "@types/react": "^18.2.55",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

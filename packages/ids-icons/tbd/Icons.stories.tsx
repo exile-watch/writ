@@ -2,7 +2,7 @@ import { Meta, Story } from '@storybook/react';
 
 import { Heading } from '#design-system/components';
 
-import * as icons from '.';
+import * as icons from '../src';
 
 const classes = [
   'WitchIcon',
@@ -22,6 +22,7 @@ const ascendancies = [
   'DeadeyeIcon',
   'PathfinderIcon',
   'RaiderIcon',
+  'RangerIcon',
   'ElementalistIcon',
   'NecromancerIcon',
   'OccultistIcon',
