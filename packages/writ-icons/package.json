@@ -1,12 +1,12 @@
 {
-  "name": "@exile-watch/ids-icons",
+  "name": "@exile-watch/writ-icons",
   "version": "0.2.1",
   "description": "Shared design system of React components for exile.watch fronted projects",
-  "homepage": "https://github.com/exile-watch/writ/pkgs/npm/ids-icons",
+  "homepage": "https://github.com/exile-watch/writ/pkgs/npm/writ-icons",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/exile-watch/writ.git",
-    "directory": "packages/ids-icons"
+    "directory": "packages/writ-icons"
   },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -19,7 +19,7 @@
     "_build": "rollup -c",
     "build": "run-s _clean _build",
     "typecheck": "tsc --noEmit",
-    "svgr:icons": "npx @svgr/cli --svgo-config .svgo.json -d packages/ids-icons/src packages/ids-icons/svg --typescript --memo --ref"
+    "svgr:icons": "npx @svgr/cli --svgo-config .svgo.json -d packages/writ-icons/src packages/writ-icons/svg --typescript --memo --ref"
   },
   "devDependencies": {
     "@exile-watch/rollup-config": "^0.1.1",
