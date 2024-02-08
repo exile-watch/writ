@@ -1,0 +1,27 @@
+{
+  "name": "writ",
+  "version": "0.0.0",
+  "description": "Design system for exile.watch",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exile-watch/writ.git"
+  },
+  "author": "Sebastian Krzyzanowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exile-watch/writ/issues"
+  },
+  "homepage": "https://github.com/exile-watch/writ#readme",
+  "scripts": {
+    "build": "lerna run build",
+    "typecheck": "lerna run typecheck"
+  },
+  "devDependencies": {
+    "@exile-watch/biome-config": "^0.1.2",
+    "@exile-watch/typescript-config": "^0.2.0",
+    "lerna": "^8.0.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
