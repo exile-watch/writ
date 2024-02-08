@@ -4,8 +4,8 @@
   </a>
 </p>
 <h1 align="center">
-  <a href="#">exile.watch</a> icons
+  <a href="#">exile.watch</a> shared Icons
 </h1>
 <p align="center">
-    Icon package featuring Path of Exile themed and React.js ecosystem icons for exile.watch frontend projects
+    Icon package featuring <a href="https://www.pathofexile.com/" target="_blank">Path of Exile</a> themed and <a href="https://react.dev/" target="_blank">React</a> ecosystem icons for exile.watch frontend projects
 </p>
