@@ -1,0 +1,50 @@
+{
+  "name": "@exile-watch/ids-react",
+  "version": "0.0.0",
+  "description": "Shared design system of React components for exile.watch fronted projects",
+  "homepage": "https://github.com/exile-watch/writ/pkgs/npm/ids-react",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exile-watch/writ.git",
+    "directory": "packages/ids-react"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "NODE_ENV=testing jest --coverage",
+    "test:watch": "NODE_ENV=testing jest --watchAll",
+    "test:watch:coverage": "jest --watchAll --coverage",
+    "typecheck": "tsc --noEmit",
+    "build-storybook": "build-storybook -o ./dist-storybook --loglevel error --quiet",
+    "storybook": "start-storybook -p 6006"
+  },
+  "devDependencies": {
+    "@exile-watch/rollup-config": "^0.1.1",
+    "@types/react": "^18.2.55",
+    "classnames": "^2.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.70.0",
+    "tslib": "^2.6.2"
+  },
+  "peerDependencies": {
+    "classnames": "^2.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "@exile-watch/ids-icons": "^0.0.0",
+    "downshift": "^8.3.1",
+    "framer-motion": "^11.0.3",
+    "is-hotkey": "^0.2.0",
+    "react-cookie": "^7.0.2",
+    "slate": "^0.102.0",
+    "slate-history": "^0.100.0",
+    "slate-react": "^0.102.0"
+  }
+}

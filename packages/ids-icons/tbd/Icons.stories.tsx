@@ -1,6 +1,6 @@
 import { Meta, Story } from '@storybook/react';
 
-import { Heading } from '#design-system/components';
+import { Heading } from '#components';
 
 import * as icons from '../src';
 

@@ -1,0 +1,28 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "outDir": "dist/",
+    "baseUrl": "./",
+    "rootDir": "./src",
+    "esModuleInterop": true,
+    "paths": {
+      "#types": [
+        "./types/index.ts"
+      ],
+      "#components": [
+        "./src/components"
+      ]
+    },
+    "typeRoots": ["types"]
+  },
+  "exclude": [
+    "node_modules",
+    "coverage",
+    "**/*.spec.ts",
+    "**/*.spec.tsx",
+    "**/*.stories.tsx",
+    "**/*.stories.ts",
+  ],
+  "include": ["src", "types"],
+}
