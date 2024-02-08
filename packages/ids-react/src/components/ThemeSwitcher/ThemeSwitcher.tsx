@@ -2,7 +2,7 @@ import React from 'react';
 import { useCookies } from 'react-cookie';
 
 import { MoonIcon, SunIcon } from '@exile-watch/ids-icons';
-import { Themes } from '#types';
+import { Themes } from 'src/types';
 
 import styles from './ThemeSwitcher.module.scss';
 

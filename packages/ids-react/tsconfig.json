@@ -8,13 +8,15 @@
     "esModuleInterop": true,
     "paths": {
       "#types": [
-        "./types/index.ts"
+        "./src/types/index.ts"
       ],
       "#components": [
         "./src/components"
       ]
     },
-    "typeRoots": ["types"]
+    "typeRoots": [
+      "src/types"
+    ]
   },
   "exclude": [
     "node_modules",
@@ -24,5 +26,5 @@
     "**/*.stories.tsx",
     "**/*.stories.ts",
   ],
-  "include": ["src", "types"],
+  "include": ["src"],
 }
