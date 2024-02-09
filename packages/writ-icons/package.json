@@ -19,7 +19,7 @@
     "_build": "rollup -c",
     "build": "run-s _clean _build",
     "typecheck": "tsc --noEmit",
-    "svgr": "npx @svgr/cli --svgo-config .svgrrc.js --out-dir src/icons -- src/svg"
+    "svgr": "npx @svgr/cli --svgo-config .svgrrc.js --out-dir src -- src/svg"
   },
   "devDependencies": {
     "@exile-watch/rollup-config": "^0.1.1",
