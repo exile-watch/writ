@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.10](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.1.9...@exile-watch/writ-react@0.1.10) (2024-02-09)
+
+
+### 🐞 Bug Fixes
+
+* **Heading:** import react reference ([6099c49](https://github.com/exile-watch/writ/commit/6099c491a93f50371d1966a6af3e6a3bdb7b90a9))
+
+
+
 ## [0.1.9](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.1.8...@exile-watch/writ-react@0.1.9) (2024-02-09)
 
 
