@@ -1,7 +1,7 @@
 import React from 'react';
 import { useCookies } from 'react-cookie';
 
-import {SunIcon, MoonIcon} from '@exile-watch/writ-icons/src';
+import {SunIcon, MoonIcon} from '@exile-watch/writ-icons';
 import { Themes } from 'src/types';
 
 import styles from './ThemeSwitcher.module.scss';

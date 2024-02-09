@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import cx from 'classnames';
 
-import {ErrorIcon, InfoIcon, WarningIcon} from '@exile-watch/writ-icons/src';
+import {ErrorIcon, InfoIcon, WarningIcon} from '@exile-watch/writ-icons';
 
 import styles from './Message.module.scss';
 

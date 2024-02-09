@@ -14,7 +14,10 @@
   "homepage": "https://github.com/exile-watch/writ#readme",
   "scripts": {
     "build": "lerna run build",
-    "typecheck": "lerna run typecheck"
+    "typecheck": "lerna run typecheck",
+    "lerna:bootstrap:changed": "lerna bootstrap --since --include-dependencies --include-dependents --ci",
+    "install:changed": "npm ci --ignore-scripts && npm run lerna:bootstrap:changed",
+    "postinstall": "lerna run build"
   },
   "devDependencies": {
     "@exile-watch/conventional-changelog-config": "^0.1.1",
