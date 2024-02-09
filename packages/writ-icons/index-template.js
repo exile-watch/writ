@@ -1,6 +1,6 @@
 function template(components){
   const foo = components.map(c => {
-    const icon = c.originalPath.replace(/^svg\\|\.svg$/g, '');
+    const icon = c.originalPath.replace(/^src\\svg\\|\.svg$/g, '');
 
     return `export * from "./${icon}";`
   })
