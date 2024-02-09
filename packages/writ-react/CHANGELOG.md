@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.9](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.1.8...@exile-watch/writ-react@0.1.9) (2024-02-09)
+
+
+### 🐞 Bug Fixes
+
+* **MissingContent:** import ([dfae01a](https://github.com/exile-watch/writ/commit/dfae01a8c4fe012ea57d4de76b10b87f0a74c553))
+
+
+
 ## [0.1.8](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.1.7...@exile-watch/writ-react@0.1.8) (2024-02-09)
 
 
