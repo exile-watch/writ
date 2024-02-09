@@ -2,7 +2,7 @@ const iconComponentTemplate = (variables, { tpl }) => {
   const memoDeclaration = variables.exports[1]
   const forwardRef = memoDeclaration.declarations[0].init.arguments
   const [, icon] = variables.componentName.split('Svg')
-  console.log(variables.componentName)
+
   return tpl`
 ${variables.imports};
 
