@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.0](https://github.com/exile-watch/writ/compare/@exile-watch/writ-icons@0.2.3...@exile-watch/writ-icons@0.3.0) (2024-02-09)
+
+
+### ✨ Features
+
+* **svgr:** update config with react component and index templates ([9751506](https://github.com/exile-watch/writ/commit/97515062101131e1594495fc938881d242b8a064))
+* **svgr:** update config with react component and index templates ([e66ba0d](https://github.com/exile-watch/writ/commit/e66ba0d736327e0ec314f5fc5c86997299867d09))
+* **svgr:** update template index export path after dir movement ([c2c0d87](https://github.com/exile-watch/writ/commit/c2c0d8721f17dc663e54fdbce83b758afb4c8497))
+
+
+
 ## [0.2.3](https://github.com/exile-watch/writ/compare/@exile-watch/writ-icons@0.2.2...@exile-watch/writ-icons@0.2.3) (2024-02-08)
 
 **Note:** Version bump only for package @exile-watch/writ-icons
