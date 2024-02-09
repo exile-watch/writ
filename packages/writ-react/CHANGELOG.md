@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.8](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.1.7...@exile-watch/writ-react@0.1.8) (2024-02-09)
+
+
+### ⚙️ Internal
+
+* **packages:** update scripts ([7d6e3c0](https://github.com/exile-watch/writ/commit/7d6e3c039065045b3bcc55ac7cf50ecaaa951d51))
+
+
+
 ## [0.1.7](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.1.6...@exile-watch/writ-react@0.1.7) (2024-02-09)
 
 **Note:** Version bump only for package @exile-watch/writ-react
