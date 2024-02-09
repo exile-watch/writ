@@ -1,6 +1,6 @@
 {
   "name": "@exile-watch/writ-react",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Shared design system of React components for exile.watch fronted projects",
   "homepage": "https://github.com/exile-watch/writ/pkgs/npm/writ-react",
   "repository": {
@@ -42,7 +42,7 @@
     "react-dom": "^18.2.0"
   },
   "dependencies": {
-    "@exile-watch/writ-icons": "^0.3.0",
+    "@exile-watch/writ-icons": "^0.3.1",
     "framer-motion": "^11.0.3",
     "is-hotkey": "^0.2.0",
     "react-cookie": "^7.0.2",

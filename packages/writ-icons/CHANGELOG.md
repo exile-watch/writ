@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/exile-watch/writ/compare/@exile-watch/writ-icons@0.3.0...@exile-watch/writ-icons@0.3.1) (2024-02-09)
+
+
+### ⚙️ Code Quality
+
+* **svgr:** update icon imports ([cc17230](https://github.com/exile-watch/writ/commit/cc172304c3dc7465a2125d645fd7368a1f171fc8))
+
+
+
 ## [0.3.0](https://github.com/exile-watch/writ/compare/@exile-watch/writ-icons@0.2.3...@exile-watch/writ-icons@0.3.0) (2024-02-09)
 
 
