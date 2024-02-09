@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import React, { ReactNode } from 'react';
 import cx from 'classnames';
 
 import styles from './Heading.module.scss';
@@ -9,7 +9,7 @@ type HeadingProps = {
   className?: string;
 };
 
-const Heading = ({ as: T, children, className, ...props }: HeadingProps) => {
+const Heading = ({ as: T = 'h3', children = null, className = '', ...props }: HeadingProps) => {
   const fontSize = {
     [styles.h1]: T === 'h1',
     [styles.h2]: T === 'h2',
@@ -23,12 +23,6 @@ const Heading = ({ as: T, children, className, ...props }: HeadingProps) => {
       {children}
     </T>
   );
-};
-
-Heading.defaultProps = {
-  as: 'h3',
-  children: null,
-  className: null,
 };
 
 export {Heading};
