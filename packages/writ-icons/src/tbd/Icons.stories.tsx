@@ -2,7 +2,7 @@ import { Meta, Story } from '@storybook/react';
 
 import { Heading } from '#components';
 
-import * as icons from '../src';
+import * as icons from '../index';
 
 const classes = [
   'WitchIcon',

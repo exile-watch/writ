@@ -1,7 +1,7 @@
 import React from 'react';
 import cx from 'classnames';
 
-import RedirectIcon from '@exile-watch/writ-icons/src/RedirectIcon';
+import {RedirectIcon} from '@exile-watch/writ-icons/src';
 
 import styles from './MissingContent.module.scss';
 

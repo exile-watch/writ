@@ -1,5 +1,5 @@
-const indexTemplate = require('./index-template')
-const iconComponentTemplate = require('./icon-component-template')
+const indexTemplate = require('./src/templates/index-template')
+const iconComponentTemplate = require('./src/templates/icon-component-template')
 
 module.exports = {
   dimensions: true,
