@@ -34,7 +34,7 @@ jobs:
           echo "@exile-watch:registry=https://npm.pkg.github.com/" >> .npmrc
 
       - name: Install dependencies
-        run: npm run install:changed
+        run: npm ci --ignore-scripts
 
       - name: Build
         run: npm run build
