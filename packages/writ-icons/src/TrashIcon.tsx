@@ -1,27 +1,27 @@
-import * as React from 'react';
-
-function SvgTrashIcon(props: React.SVGProps<SVGSVGElement>, svgRef?: React.Ref<SVGSVGElement>) {
-  return (
-    <svg
-      width={24}
-      height={24}
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      ref={svgRef}
-      {...props}
-    >
-      <path
-        d="M8 9h-.709a2 2 0 00-1.981 2.27l.954 7A2 2 0 008.246 20h7.508a2 2 0 001.982-1.73l.954-7A2 2 0 0016.71 9H16M8 9V6a2 2 0 012-2h4a2 2 0 012 2v3M8 9h8m-6 3v5m4-5v5"
-        stroke="#000"
-        strokeWidth={2}
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
-const ForwardRef = React.forwardRef(SvgTrashIcon);
-const MemoForwardRef = React.memo(ForwardRef);
-export default MemoForwardRef;
+import * as React from "react";
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgTrashIcon = (
+  props: SVGProps<SVGSVGElement>,
+  ref: Ref<SVGSVGElement>
+) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={24}
+    fill="none"
+    ref={ref}
+    {...props}
+  >
+    <path
+      stroke="#000"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M8 9h-.709a2 2 0 0 0-1.981 2.27l.954 7A2 2 0 0 0 8.246 20h7.508a2 2 0 0 0 1.982-1.73l.954-7A2 2 0 0 0 16.71 9H16M8 9V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v3M8 9h8m-6 3v5m4-5v5"
+    />
+  </svg>
+);
+const ForwardRef = forwardRef(SvgTrashIcon);
+const TrashIcon = memo(ForwardRef);
+export { TrashIcon };
