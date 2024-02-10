@@ -1,15 +1,8 @@
-import React, { ButtonHTMLAttributes, DetailedHTMLProps } from 'react';
+import React from 'react';
+import {Button as MantineButton, ButtonProps} from '@mantine/core'
 import cx from 'classnames';
 
 import styles from './Button.module.scss';
-
-type ButtonProps = {
-  size?: 'medium' | 'large';
-  variant?: 'primary' | 'secondary' | 'tertiary';
-  /** Disabled state overrides styles from other states */
-  disabled?: boolean;
-  inactive?: boolean;
-} & DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>;
 
 const Button = ({
   children,
@@ -17,10 +10,9 @@ const Button = ({
   className,
   variant = 'primary',
   disabled = false,
-  inactive = false,
   ...props
 }: ButtonProps) => (
-  <button
+  <MantineButton
     className={cx(
       'transition-style-scope px-3 py-1',
       styles.button,
@@ -29,13 +21,12 @@ const Button = ({
       className,
       {
         [styles.disabled]: disabled,
-        [styles.inactive]: inactive,
       }
     )}
     {...props}
   >
     {children}
-  </button>
+  </MantineButton>
 );
 
 export {Button};
