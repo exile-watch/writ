@@ -1,7 +1,11 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "version": "independent",
+  "npmClient": "pnpm",
   "command": {
+    "publish": {
+      "loglevel": "debug"
+    },
     "version": {
       "allowBranch": "main",
       "conventionalCommits": true,
@@ -10,8 +14,5 @@
       "commitHooks": false,
       "changelogPreset": "@exile-watch/conventional-changelog-config"
     }
-  },
-  "packages": [
-    "packages/*"
-  ]
+  }
 }
