@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.2.0...@exile-watch/writ-react@0.2.1) (2024-02-10)
+
+
+### 🐞 Bug Fixes
+
+* **providers:** WritProvider export ([c2b2a7c](https://github.com/exile-watch/writ/commit/c2b2a7c269c78ecdc7651522d0fb954dc2d5c184))
+
+
+
 ## [0.2.0](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.1.12...@exile-watch/writ-react@0.2.0) (2024-02-10)
 
 
