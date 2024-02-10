@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.12](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.1.11...@exile-watch/writ-react@0.1.12) (2024-02-10)
+
+
+### ⚙️ Code Quality
+
+* **components:** reexport previously removed components ([ea307f7](https://github.com/exile-watch/writ/commit/ea307f750962225c20149077b7f4b9556f0919e9))
+
+
+
 ## [0.1.11](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.1.10...@exile-watch/writ-react@0.1.11) (2024-02-10)
 
 
