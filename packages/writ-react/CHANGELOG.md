@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.11](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.1.10...@exile-watch/writ-react@0.1.11) (2024-02-10)
+
+
+### ⚙️ Code Quality
+
+* **deps:** experiment with mantine ([46004d2](https://github.com/exile-watch/writ/commit/46004d2c25e674dfef36e2af9c93a5158eaaf57f))
+
+
+
 ## [0.1.10](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.1.9...@exile-watch/writ-react@0.1.10) (2024-02-09)
 
 
