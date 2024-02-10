@@ -1,12 +1,9 @@
-import {createTheme, MantineProvider} from "@mantine/core";
-
-const theme = createTheme({
-  /** Put your mantine theme override here */
-});
+import React from 'react'
+import {MantineProvider} from "@mantine/core";
 
 const WritProvider = ({children}) => {
   return (
-    <MantineProvider theme={theme}>
+    <MantineProvider>
       {children}
     </MantineProvider>
   );
