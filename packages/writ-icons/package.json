@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@exile-watch/rollup-config": "^0.1.1",
+    "@exile-watch/typescript-config": "^0.2.0",
     "@svgr/cli": "^8.1.0",
     "@types/react": "^18.2.55",
     "del-cli": "^5.1.0",
@@ -36,5 +37,8 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "tslib": "^2.6.2"
   }
 }

@@ -27,7 +27,8 @@
   },
   "devDependencies": {
     "@exile-watch/postcss-config": "^0.1.0",
-    "@exile-watch/rollup-config": "^0.1.1",
+    "@exile-watch/rollup-config": "^0.1.4",
+    "@exile-watch/typescript-config": "^0.2.0",
     "@exile-watch/writ-icons": "^0.3.2",
     "@types/react": "^18.2.55",
     "classnames": "^2.5.1",
@@ -46,12 +47,14 @@
   },
   "dependencies": {
     "@mantine/core": "^7.5.2",
+    "@mantine/hooks": "^7.5.2",
     "framer-motion": "^11.0.3",
     "is-hotkey": "^0.2.0",
     "react-cookie": "^7.0.2",
     "slate": "^0.102.0",
     "slate-history": "^0.100.0",
-    "slate-react": "^0.102.0"
+    "slate-react": "^0.102.0",
+    "tslib": "^2.6.2"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
