@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.4](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.2.3...@exile-watch/writ-react@0.2.4) (2024-02-11)
+
+
+### ⚙️ Internal
+
+* **deps:** bump packages ([09c2b5a](https://github.com/exile-watch/writ/commit/09c2b5a268b48faa0a5810939b5425516b00385c))
+* **packages:** swap npm in favor of pnpm and update release workflow ([8407552](https://github.com/exile-watch/writ/commit/8407552fd3279bf02341d5cf194f4c9166a73e7d))
+
+
+### ⚙️ Code Quality
+
+* **pnpm:** remove pnpm prefix to rollup script and bump rollup config ([d87071c](https://github.com/exile-watch/writ/commit/d87071c865dcad5d50c1a2ffc370bb6124cc1a90))
+* **pnpm:** try dedupe step ([7710f02](https://github.com/exile-watch/writ/commit/7710f02affa6cd54254c26a6f127ec3525c24bc1))
+* **pnpm:** update rollup script ([40001c5](https://github.com/exile-watch/writ/commit/40001c590b3da877f111538bedf8b1ff2f03e7f2))
+
+
+
 ## [0.2.3](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.2.2...@exile-watch/writ-react@0.2.3) (2024-02-10)
 
 **Note:** Version bump only for package @exile-watch/writ-react
