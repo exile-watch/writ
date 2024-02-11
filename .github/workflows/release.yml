@@ -52,7 +52,7 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
-        run: pnpm install -r --ignore-scripts
+        run: pnpm install -r
 
       - name: Build
         run: pnpm build
