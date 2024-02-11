@@ -51,6 +51,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
 
+      # --shamefully-hoist because pnpm does not move transitive deps' executables to root node_modules/.bin
+      # see https://github.com/pnpm/pnpm/issues/96, https://github.com/pnpm/pnpm/issues/899#issuecomment-334548475
       - name: Install dependencies
         run: pnpm install --shamefully-hoist --ignore-scripts
 
