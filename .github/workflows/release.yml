@@ -29,7 +29,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "node-linker=hoisted" > .npmrc
           echo "//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN" > .npmrc
           echo "@exile-watch:registry=https://npm.pkg.github.com/" >> .npmrc
 
@@ -55,8 +54,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --ignore-scripts
 
-      - name: Build
-        run: pnpm build
+      - name: Dedupe and Build (postinstall)
+        run: pnpm dedupe
 
       - name: Lerna publish
         if: success()

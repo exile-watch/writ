@@ -21,8 +21,5 @@
     "@exile-watch/conventional-changelog-config": "^0.1.2",
     "@exile-watch/typescript-config": "^0.2.0",
     "lerna": "^8.1.2"
-  },
-  "workspaces": [
-    "packages/*"
-  ]
+  }
 }

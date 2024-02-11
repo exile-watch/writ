@@ -22,7 +22,7 @@
     "svgr": "npx @svgr/cli --svgo-config .svgrrc.js --out-dir src -- src/svg"
   },
   "devDependencies": {
-    "@exile-watch/rollup-config": "^0.1.6",
+    "@exile-watch/rollup-config": "^0.1.7",
     "@exile-watch/typescript-config": "^0.2.0",
     "@svgr/cli": "^8.1.0",
     "@types/react": "^18.2.55",

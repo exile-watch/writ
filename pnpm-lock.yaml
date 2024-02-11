@@ -25,8 +25,8 @@ importers:
         version: 2.6.2
     devDependencies:
       '@exile-watch/rollup-config':
-        specifier: ^0.1.6
-        version: 0.1.6(acorn@8.11.3)(postcss@8.4.35)(tslib@2.6.2)(typescript@5.3.3)
+        specifier: ^0.1.7
+        version: 0.1.7(acorn@8.11.3)(postcss@8.4.35)(tslib@2.6.2)(typescript@5.3.3)
       '@exile-watch/typescript-config':
         specifier: ^0.2.0
         version: 0.2.0
@@ -83,13 +83,13 @@ importers:
         specifier: ^0.1.0
         version: 0.1.0
       '@exile-watch/rollup-config':
-        specifier: ^0.1.6
-        version: 0.1.6(acorn@8.11.3)(postcss@8.4.35)(tslib@2.6.2)(typescript@5.3.3)
+        specifier: ^0.1.7
+        version: 0.1.7(acorn@8.11.3)(postcss@8.4.35)(tslib@2.6.2)(typescript@5.3.3)
       '@exile-watch/typescript-config':
         specifier: ^0.2.0
         version: 0.2.0
       '@exile-watch/writ-icons':
-        specifier: workspace:^
+        specifier: ^0.3.2
         version: link:../writ-icons
       '@types/react':
         specifier: ^18.2.55
@@ -348,8 +348,8 @@ packages:
       postcss-simple-vars: 7.0.1(postcss@8.4.35)
     dev: true
 
-  /@exile-watch/rollup-config@0.1.6(acorn@8.11.3)(postcss@8.4.35)(tslib@2.6.2)(typescript@5.3.3):
-    resolution: {integrity: sha512-43Ko0vb6iHgp+uvX2i0xYqC/fn8Wrjikte/2lCO2B/m9fTVra6lboS7lwjVcrdxB6ChXCEveZOhTXuY8DQqGdw==, tarball: https://npm.pkg.github.com/download/@exile-watch/rollup-config/0.1.6/9f2b5273ea8b4c52ab0bf0e39a526134a19fb656}
+  /@exile-watch/rollup-config@0.1.7(acorn@8.11.3)(postcss@8.4.35)(tslib@2.6.2)(typescript@5.3.3):
+    resolution: {integrity: sha512-uzWIVBtkFTx1CVWEfhGFgsxJEbkIw3Jh1taVEikCIKAsSSwIq5re4Mz/XFCJOw5ua55RsapMNuu4t8xlaMovIw==, tarball: https://npm.pkg.github.com/download/@exile-watch/rollup-config/0.1.7/696a6a597b0d37e7cfbdf4a04dd307cdb53fbe10}
     dependencies:
       '@exile-watch/postcss-config': 0.1.0
       '@rollup/plugin-commonjs': 20.0.0(rollup@2.79.1)
@@ -3720,7 +3720,7 @@ packages:
     hasBin: true
     dependencies:
       async: 3.2.5
-      chalk: 4.1.0
+      chalk: 4.1.2
       filelist: 1.0.4
       minimatch: 3.1.2
     dev: true
@@ -3729,7 +3729,7 @@ packages:
     resolution: {integrity: sha512-LMIgiIrhigmPrs03JHpxUh2yISK3vLFPkAodPeo0+BuF7wA2FoQbkEg1u8gBYBThncu7e1oEDUfIXVuTqLRUjw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
-      chalk: 4.1.0
+      chalk: 4.1.2
       diff-sequences: 29.6.3
       jest-get-type: 29.6.3
       pretty-format: 29.7.0
@@ -4011,7 +4011,7 @@ packages:
     resolution: {integrity: sha512-8XPvpAA8uyhfteu8pIvQxpJZ7SYYdpUivZpGy6sFsBuKRY/7rQGavedeB8aK+Zkyq6upMFVL/9AW6vOYzfRyLg==}
     engines: {node: '>=10'}
     dependencies:
-      chalk: 4.1.0
+      chalk: 4.1.2
       is-unicode-supported: 0.1.0
     dev: true
 
@@ -4370,7 +4370,7 @@ packages:
       array-differ: 3.0.0
       array-union: 2.1.0
       arrify: 2.0.1
-      minimatch: 3.0.5
+      minimatch: 3.1.2
     dev: true
 
   /mute-stream@0.0.8:
@@ -4677,7 +4677,7 @@ packages:
       '@yarnpkg/parsers': 3.0.0-rc.46
       '@zkochan/js-yaml': 0.0.6
       axios: 1.6.7
-      chalk: 4.1.0
+      chalk: 4.1.2
       cli-cursor: 3.1.0
       cli-spinners: 2.6.1
       cliui: 8.0.1
@@ -4772,9 +4772,9 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       bl: 4.1.0
-      chalk: 4.1.0
+      chalk: 4.1.2
       cli-cursor: 3.1.0
-      cli-spinners: 2.6.1
+      cli-spinners: 2.9.2
       is-interactive: 1.0.0
       log-symbols: 4.1.0
       strip-ansi: 6.0.1

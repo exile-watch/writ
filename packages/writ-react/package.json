@@ -27,9 +27,9 @@
   },
   "devDependencies": {
     "@exile-watch/postcss-config": "^0.1.0",
-    "@exile-watch/rollup-config": "^0.1.6",
+    "@exile-watch/rollup-config": "^0.1.7",
     "@exile-watch/typescript-config": "^0.2.0",
-    "@exile-watch/writ-icons": "workspace:^",
+    "@exile-watch/writ-icons": "^0.3.2",
     "@types/react": "^18.2.55",
     "classnames": "^2.5.1",
     "del-cli": "^5.1.0",
