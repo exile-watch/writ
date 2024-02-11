@@ -19,6 +19,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version-file: '.nvmrc'
+          cache: 'npm'
 
       - name: Configure Git
         run: |
@@ -32,32 +33,11 @@ jobs:
           echo "//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN" > .npmrc
           echo "@exile-watch:registry=https://npm.pkg.github.com/" >> .npmrc
 
-      - uses: pnpm/action-setup@v3
-        name: Install pnpm
-        with:
-          version: 8
-          run_install: false
-
-      - name: Get pnpm store directory
-        shell: bash
-        run: |
-          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
-
-      - uses: actions/cache@v3
-        name: Setup pnpm cache
-        with:
-          path: ${{ env.STORE_PATH }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-store-
-
-      # --shamefully-hoist because pnpm does not move transitive deps' executables to root node_modules/.bin
-      # see https://github.com/pnpm/pnpm/issues/96, https://github.com/pnpm/pnpm/issues/899#issuecomment-334548475
       - name: Install dependencies
-        run: pnpm install --shamefully-hoist --ignore-scripts
+        run: npm ci
 
       - name: Build
-        run: pnpm build
+        run: npm run build
 
       - name: Lerna publish
         if: success()
