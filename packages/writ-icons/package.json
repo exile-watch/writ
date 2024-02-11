@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "_clean": "del-cli dist",
-    "_build": "rollup -c",
+    "_build": "pnpm rollup -c",
     "build": "run-s _clean _build",
     "typecheck": "tsc --noEmit",
     "svgr": "npx @svgr/cli --svgo-config .svgrrc.js --out-dir src -- src/svg"
