@@ -52,10 +52,10 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
-        run: pnpm install --ignore-scripts
+        run: pnpm install --shamefully-hoist --ignore-scripts
 
-      - name: Dedupe and Build (postinstall)
-        run: pnpm dedupe
+      - name: Build
+        run: pnpm build
 
       - name: Lerna publish
         if: success()
