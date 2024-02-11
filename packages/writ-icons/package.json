@@ -16,13 +16,13 @@
   ],
   "scripts": {
     "_clean": "del-cli dist",
-    "_build": "pnpm rollup -c",
+    "_build": "rollup -c",
     "build": "run-s _clean _build",
     "typecheck": "tsc --noEmit",
     "svgr": "npx @svgr/cli --svgo-config .svgrrc.js --out-dir src -- src/svg"
   },
   "devDependencies": {
-    "@exile-watch/rollup-config": "^0.1.5",
+    "@exile-watch/rollup-config": "^0.1.6",
     "@exile-watch/typescript-config": "^0.2.0",
     "@svgr/cli": "^8.1.0",
     "@types/react": "^18.2.55",

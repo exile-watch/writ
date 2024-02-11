@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "_clean": "del-cli dist",
-    "_build": "pnpm rollup -c",
+    "_build": "rollup -c",
     "build": "run-s _clean _build",
     "test": "NODE_ENV=testing jest --coverage",
     "test:watch": "NODE_ENV=testing jest --watchAll",
@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@exile-watch/postcss-config": "^0.1.0",
-    "@exile-watch/rollup-config": "^0.1.5",
+    "@exile-watch/rollup-config": "^0.1.6",
     "@exile-watch/typescript-config": "^0.2.0",
     "@exile-watch/writ-icons": "workspace:^",
     "@types/react": "^18.2.55",

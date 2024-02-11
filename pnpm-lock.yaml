@@ -25,8 +25,8 @@ importers:
         version: 2.6.2
     devDependencies:
       '@exile-watch/rollup-config':
-        specifier: ^0.1.5
-        version: 0.1.5(acorn@8.11.3)(postcss@8.4.35)(tslib@2.6.2)(typescript@5.3.3)
+        specifier: ^0.1.6
+        version: 0.1.6(acorn@8.11.3)(postcss@8.4.35)(tslib@2.6.2)(typescript@5.3.3)
       '@exile-watch/typescript-config':
         specifier: ^0.2.0
         version: 0.2.0
@@ -83,8 +83,8 @@ importers:
         specifier: ^0.1.0
         version: 0.1.0
       '@exile-watch/rollup-config':
-        specifier: ^0.1.5
-        version: 0.1.5(acorn@8.11.3)(postcss@8.4.35)(tslib@2.6.2)(typescript@5.3.3)
+        specifier: ^0.1.6
+        version: 0.1.6(acorn@8.11.3)(postcss@8.4.35)(tslib@2.6.2)(typescript@5.3.3)
       '@exile-watch/typescript-config':
         specifier: ^0.2.0
         version: 0.2.0
@@ -348,8 +348,8 @@ packages:
       postcss-simple-vars: 7.0.1(postcss@8.4.35)
     dev: true
 
-  /@exile-watch/rollup-config@0.1.5(acorn@8.11.3)(postcss@8.4.35)(tslib@2.6.2)(typescript@5.3.3):
-    resolution: {integrity: sha512-hhrv/V5GJXoo2YTxHpPNIhkXW3ycwpJCH3UPzv5ysnPPchBhe7DL/lkvn5Wg1j2eDWphyzrsXKjxHt6naILrPA==, tarball: https://npm.pkg.github.com/download/@exile-watch/rollup-config/0.1.5/fc767b27a25bb84256a49db339ccf90be2b2efc7}
+  /@exile-watch/rollup-config@0.1.6(acorn@8.11.3)(postcss@8.4.35)(tslib@2.6.2)(typescript@5.3.3):
+    resolution: {integrity: sha512-43Ko0vb6iHgp+uvX2i0xYqC/fn8Wrjikte/2lCO2B/m9fTVra6lboS7lwjVcrdxB6ChXCEveZOhTXuY8DQqGdw==, tarball: https://npm.pkg.github.com/download/@exile-watch/rollup-config/0.1.6/9f2b5273ea8b4c52ab0bf0e39a526134a19fb656}
     dependencies:
       '@exile-watch/postcss-config': 0.1.0
       '@rollup/plugin-commonjs': 20.0.0(rollup@2.79.1)
