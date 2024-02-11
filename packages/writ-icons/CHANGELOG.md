@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.5](https://github.com/exile-watch/writ/compare/@exile-watch/writ-icons@0.3.4...@exile-watch/writ-icons@0.3.5) (2024-02-11)
+
+
+### ⚙️ Internal
+
+* **deps:** bump rollup-config ([be1767b](https://github.com/exile-watch/writ/commit/be1767befed11ff83b4c6a655cfc572f3efb7894))
+* **npm:** get back to npm ([5bced6d](https://github.com/exile-watch/writ/commit/5bced6ddb3c2fe677d96bcd5a05e89b6072c983b))
+
+
+
 ## [0.3.4](https://github.com/exile-watch/writ/compare/@exile-watch/writ-icons@0.3.3...@exile-watch/writ-icons@0.3.4) (2024-02-11)
 
 
