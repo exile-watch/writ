@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.6](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.2.5...@exile-watch/writ-react@0.2.6) (2024-02-12)
+
+
+### 🐞 Bug Fixes
+
+* **package.json:** add missing npm run to build script ([28983d2](https://github.com/exile-watch/writ/commit/28983d22b96891c40e4e27ec24b97397860144b1))
+
+
+### ⚙️ Code Quality
+
+* **components:** export mantine for the time being ([fa23a51](https://github.com/exile-watch/writ/commit/fa23a519902f26141a1a76af9376aaf09e385bea))
+
+
+
 ## [0.2.5](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.2.4...@exile-watch/writ-react@0.2.5) (2024-02-11)
 
 
