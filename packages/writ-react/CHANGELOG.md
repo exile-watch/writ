@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.7](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.2.6...@exile-watch/writ-react@0.2.7) (2024-02-18)
+
+
+### ⚙️ Code Quality
+
+* **app:** general styling improvements ([55dc9d6](https://github.com/exile-watch/writ/commit/55dc9d6bedb258862941c4bb426c2f3e74221c8e))
+
+
+
 ## [0.2.6](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.2.5...@exile-watch/writ-react@0.2.6) (2024-02-12)
 
 
