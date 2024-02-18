@@ -2,8 +2,8 @@ import React from 'react';
 import cx from 'classnames';
 
 import {RedirectIcon} from '@exile-watch/writ-icons';
-
 import styles from './MissingContent.module.scss';
+import {Group, Stack, Text, Anchor} from "@mantine/core";
 
 type MissingContentProps = {
   abilityName?: string;
@@ -26,32 +26,32 @@ const MissingContent = ({
   //       boss
   //     )} > ${abilityName}`
   //   : `[Invalid Ability Data][Missing ${missingContentType}]: ${startCase(boss)} > ${abilityName}`;
-  const issueSrc = `https://github.com/sbsrnt/poe-watch/issues/new?template=invalid-ability-data.md&labels=invalid%2Fmissing+data&title=${issueTitle}`;
+  const issueSrc = `https://github.com/exile-watch/splinters/issues/new?template=invalid-ability-data.md&labels=invalid%2Fmissing+data&title=${issueTitle}`;
   const target = '_blank';
   const rel = 'noreferrer noopener';
 
   return (
-    <div className={cx(styles.missingContent, className)}>
-      <p>
+    <Stack className={cx(styles.missingContent, className)} gap={0}>
+      <Text>
         There is missing <i>{missingContentType}</i> section for this ability.
-      </p>
-      <p>
-        Before reporting an issue,{' '}
-        <a
+      </Text>
+      <Group>
+        <Text>Before reporting an issue, </Text>
+        <Anchor
           href={redirect}
           target={target}
           rel={rel}
         >
-          <span>check if it already exists</span> <RedirectIcon />
-        </a>
-      </p>
-      <p>
-        If you can't find desired issue then{' '}
+          check if it already exists <RedirectIcon />
+        </Anchor>
+      </Group>
+      <Group>
+        <Text>If you can't find desired issue then</Text>
         <a href={issueSrc} target={target} rel={rel}>
           <span>create a new issue</span> <RedirectIcon />
         </a>
-      </p>
-    </div>
+      </Group>
+    </Stack>
   );
 };
 
