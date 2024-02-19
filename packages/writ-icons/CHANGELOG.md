@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.7](https://github.com/exile-watch/writ/compare/@exile-watch/writ-icons@0.3.6...@exile-watch/writ-icons@0.3.7) (2024-02-19)
+
+
+### ⚙️ Internal
+
+* **deps:** bump deps ([4106530](https://github.com/exile-watch/writ/commit/4106530f1143dbae760d5814b9f2355823da98af))
+
+
+
 ## [0.3.6](https://github.com/exile-watch/writ/compare/@exile-watch/writ-icons@0.3.5...@exile-watch/writ-icons@0.3.6) (2024-02-19)
 
 

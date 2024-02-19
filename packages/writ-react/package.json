@@ -1,6 +1,6 @@
 {
   "name": "@exile-watch/writ-react",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "Shared design system of React components for exile.watch fronted projects",
   "homepage": "https://github.com/exile-watch/writ/pkgs/npm/writ-react",
   "repository": {
@@ -27,7 +27,7 @@
     "@exile-watch/postcss-config": "^0.2.0",
     "@exile-watch/rollup-config": "^0.2.0",
     "@exile-watch/typescript-config": "^0.3.0",
-    "@exile-watch/writ-icons": "^0.3.6",
+    "@exile-watch/writ-icons": "^0.3.7",
     "@types/react": "^18.2.55",
     "classnames": "^2.5.1",
     "del-cli": "^5.1.0",

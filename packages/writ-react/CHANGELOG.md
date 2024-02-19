@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.9](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.2.8...@exile-watch/writ-react@0.2.9) (2024-02-19)
+
+
+### ⚙️ Internal
+
+* **deps:** bump deps ([4106530](https://github.com/exile-watch/writ/commit/4106530f1143dbae760d5814b9f2355823da98af))
+
+
+
 ## [0.2.8](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.2.7...@exile-watch/writ-react@0.2.8) (2024-02-19)
 
 
