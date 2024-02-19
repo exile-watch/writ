@@ -36,7 +36,8 @@
     "react-dom": "^18.2.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
   },
   "dependencies": {
     "tslib": "^2.6.2"
