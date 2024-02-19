@@ -24,9 +24,9 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@exile-watch/postcss-config": "^0.1.0",
-    "@exile-watch/rollup-config": "^0.1.9",
-    "@exile-watch/typescript-config": "^0.2.0",
+    "@exile-watch/postcss-config": "^0.2.0",
+    "@exile-watch/rollup-config": "^0.2.0",
+    "@exile-watch/typescript-config": "^0.3.0",
     "@exile-watch/writ-icons": "^0.3.6",
     "@types/react": "^18.2.55",
     "classnames": "^2.5.1",
@@ -37,8 +37,8 @@
     "sass": "^1.70.0"
   },
   "peerDependencies": {
-    "@exile-watch/postcss-config": "^0.1.0",
-    "@exile-watch/writ-icons": "^0.3.2",
+    "@exile-watch/postcss-config": "^0.2.0",
+    "@exile-watch/writ-icons": "^0.3.6",
     "classnames": "^2.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
