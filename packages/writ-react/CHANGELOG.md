@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.8](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.2.7...@exile-watch/writ-react@0.2.8) (2024-02-19)
+
+
+### ⚙️ Internal
+
+* **deps:** change package access to public ([7d92a51](https://github.com/exile-watch/writ/commit/7d92a51fc88c2f68c3a20adc50fe64cdc24167b0))
+
+
+
 ## [0.2.7](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.2.6...@exile-watch/writ-react@0.2.7) (2024-02-18)
 
 

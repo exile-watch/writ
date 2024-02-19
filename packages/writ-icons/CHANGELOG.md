@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.6](https://github.com/exile-watch/writ/compare/@exile-watch/writ-icons@0.3.5...@exile-watch/writ-icons@0.3.6) (2024-02-19)
+
+
+### ⚙️ Internal
+
+* **deps:** change package access to public ([7d92a51](https://github.com/exile-watch/writ/commit/7d92a51fc88c2f68c3a20adc50fe64cdc24167b0))
+
+
+
 ## [0.3.5](https://github.com/exile-watch/writ/compare/@exile-watch/writ-icons@0.3.4...@exile-watch/writ-icons@0.3.5) (2024-02-11)
 
 
