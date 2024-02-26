@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@exile-watch/conventional-changelog-config": "^0.1.2",
-    "@exile-watch/lefthook-config": "^0.3.4",
+    "@exile-watch/lefthook-config": "^0.3.8",
     "@exile-watch/typescript-config": "^0.2.0",
     "lerna": "^8.1.2"
   },
