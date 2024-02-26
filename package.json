@@ -15,7 +15,10 @@
   "scripts": {
     "build": "lerna run build",
     "typecheck": "lerna run typecheck",
-    "postinstall": "lerna run build"
+    "postinstall": "lerna run build",
+    "lint": "exit 0",
+    "lint:apply": "exit 0",
+    "format": "exit 0"
   },
   "devDependencies": {
     "@exile-watch/conventional-changelog-config": "^0.1.2",
