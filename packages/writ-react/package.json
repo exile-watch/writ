@@ -1,6 +1,6 @@
 {
   "name": "@exile-watch/writ-react",
-  "version": "0.2.14",
+  "version": "0.2.15",
   "description": "Shared design system of React components for exile.watch fronted projects",
   "homepage": "https://github.com/exile-watch/writ/pkgs/npm/writ-react",
   "repository": {

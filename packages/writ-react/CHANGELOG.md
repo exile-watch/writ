@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.15](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.2.14...@exile-watch/writ-react@0.2.15) (2024-02-29)
+
+
+### ⚙️ Code Quality
+
+* well don't export mantine styles in provider because next hates that ([746f71b](https://github.com/exile-watch/writ/commit/746f71b4b915aa1941c298ca3368cf341fece90f))
+
+
+
 ## [0.2.14](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.2.13...@exile-watch/writ-react@0.2.14) (2024-02-29)
 
 
