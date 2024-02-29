@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.13](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.2.12...@exile-watch/writ-react@0.2.13) (2024-02-29)
+
+
+### ⚙️ Code Quality
+
+* add mantine hooks to rollup externals config ([78ab53c](https://github.com/exile-watch/writ/commit/78ab53cbd7f3d97092c3e013b43033b789c666a6))
+
+
+
 ## [0.2.12](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.2.11...@exile-watch/writ-react@0.2.12) (2024-02-29)
 
 
