@@ -4,9 +4,26 @@
 // export * from './Title/Title';
 // export * from './Input/Input';
 // export * from './InputGroup/InputGroup';
-export * from './Message/Message';
-export * from './MissingContent/MissingContent';
+// export * from './Message/Message';
+// export * from './MissingContent/MissingContent';
 // export * from './PageLoader/PageLoader';
-export * from './ThemeSwitcher/ThemeSwitcher';
-
-export * from '@mantine/core'
+// export * from './ThemeSwitcher/ThemeSwitcher';
+export {
+  AppShell,
+  Badge,
+  Burger,
+  Card,
+  Center,
+  Combobox,
+  Divider,
+  Flex,
+  Group,
+  InputBase,
+  Loader,
+  SimpleGrid,
+  Skeleton,
+  Stack,
+  Text,
+  Title,
+  useCombobox
+} from '@mantine/core'
