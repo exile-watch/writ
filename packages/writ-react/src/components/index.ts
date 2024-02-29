@@ -12,6 +12,7 @@ export {
   AppShell,
   Badge,
   Burger,
+  Button,
   Card,
   Center,
   Combobox,
