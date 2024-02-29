@@ -1,4 +1,3 @@
-// import {useMediaQuery} from "@exile/writ-react";
 import {useMediaQuery as useMantineMediaQuery, UseMediaQueryOptions} from "@mantine/hooks";
 
 const options: UseMediaQueryOptions = {
