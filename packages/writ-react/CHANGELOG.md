@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.17](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.2.16...@exile-watch/writ-react@0.2.17) (2024-03-01)
+
+
+### ⚙️ Code Quality
+
+* add .npmrc.pages ([3c54e0d](https://github.com/exile-watch/writ/commit/3c54e0d2df58f87f8053c62e45fa0114ed2977cc))
+
+
+
 ## [0.2.16](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.2.15...@exile-watch/writ-react@0.2.16) (2024-02-29)
 
 
