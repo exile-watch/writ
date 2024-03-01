@@ -10,6 +10,7 @@
 // export * from './ThemeSwitcher/ThemeSwitcher';
 export {
   AppShell,
+  Anchor,
   Badge,
   Burger,
   Button,
