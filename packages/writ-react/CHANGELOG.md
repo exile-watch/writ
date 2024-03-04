@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.0](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.4.0...@exile-watch/writ-react@0.5.0) (2024-03-04)
+
+
+### ✨ Features
+
+* export NavLink component ([6e9484a](https://github.com/exile-watch/writ/commit/6e9484ab3031db8abc8d74fe9d421374efcdfc4d))
+
+
+
 ## [0.4.0](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.3.0...@exile-watch/writ-react@0.4.0) (2024-03-04)
 
 
