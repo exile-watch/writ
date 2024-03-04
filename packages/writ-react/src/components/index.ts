@@ -16,6 +16,7 @@ export {
   Button,
   Card,
   Center,
+  Code,
   Container,
   Combobox,
   Divider,
