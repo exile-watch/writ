@@ -24,6 +24,7 @@ export {
   Group,
   InputBase,
   Loader,
+  NavLink,
   SimpleGrid,
   Skeleton,
   Stack,
