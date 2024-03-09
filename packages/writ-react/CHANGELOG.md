@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.0](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.5.0...@exile-watch/writ-react@0.6.0) (2024-03-09)
+
+
+### ✨ Features
+
+* add MockWritProvider and bump mantine to latest ([837831e](https://github.com/exile-watch/writ/commit/837831e6c10104988ea9aa074992f588d08653a1))
+
+
+
 ## [0.5.0](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.4.0...@exile-watch/writ-react@0.5.0) (2024-03-04)
 
 
