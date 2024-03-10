@@ -1,12 +1,12 @@
 import React from 'react'
-import {MantineProvider, MantineProviderProps} from "@mantine/core";
+import {HeadlessMantineProvider, HeadlessMantineProviderProps} from "@mantine/core";
 import {theme} from "../theme";
 
-const WritProvider = ({children, ...props}: MantineProviderProps) => {
+const WritProvider = ({children, ...props}: HeadlessMantineProviderProps) => {
   return (
-    <MantineProvider forceColorScheme="dark" theme={theme} {...props}>
+    <HeadlessMantineProvider theme={theme} {...props}>
       {children}
-    </MantineProvider>
+    </HeadlessMantineProvider>
   );
 };
 
