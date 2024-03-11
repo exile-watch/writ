@@ -9,7 +9,7 @@ function useMediaQuery() {
   const isTablet = useMantineMediaQuery('(max-width: 64em)', true, options);
   const isLaptop = useMantineMediaQuery('(max-width: 90em)', true, options);
 
-  return {isMobile, isLaptop};
+  return {isMobile, isLaptop, isTablet};
 }
 
 export {useMediaQuery}
