@@ -6,7 +6,8 @@ const options: UseMediaQueryOptions = {
 
 function useMediaQuery() {
   const isMobile = useMantineMediaQuery('(max-width: 45em)', true, options);
-  const isLaptop = useMantineMediaQuery('(max-width: 88em)', true, options);
+  const isTablet = useMantineMediaQuery('(max-width: 64em)', true, options);
+  const isLaptop = useMantineMediaQuery('(max-width: 90em)', true, options);
 
   return {isMobile, isLaptop};
 }
