@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.0](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.6.0...@exile-watch/writ-react@0.7.0) (2024-03-11)
+
+
+### ✨ Features
+
+* export isTablet media query ([272c642](https://github.com/exile-watch/writ/commit/272c6427b7c9b965fd2d7b382a10993bad1495da))
+
+
+
 ## [0.6.0](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.5.0...@exile-watch/writ-react@0.6.0) (2024-03-09)
 
 
