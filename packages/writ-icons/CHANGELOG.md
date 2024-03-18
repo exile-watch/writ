@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.8](https://github.com/exile-watch/writ/compare/@exile-watch/writ-icons@0.3.7...@exile-watch/writ-icons@0.3.8) (2024-03-18)
+
+
+### 📄 Documentation
+
+* update readme ([649562b](https://github.com/exile-watch/writ/commit/649562bdd1fad77c5a526af2f41698b033de7c36))
+
+
+
 ## [0.3.7](https://github.com/exile-watch/writ/compare/@exile-watch/writ-icons@0.3.6...@exile-watch/writ-icons@0.3.7) (2024-02-19)
 
 
