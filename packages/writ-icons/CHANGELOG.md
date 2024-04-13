@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.7](https://github.com/exile-watch/writ/compare/@exile-watch/writ-icons@1.0.6...@exile-watch/writ-icons@1.0.7) (2024-04-13)
+
+
+### ⚙️ Internal
+
+* experiment with mjs ([8cd4570](https://github.com/exile-watch/writ/commit/8cd45702a892c68dc8381e592737a9a7af659a55))
+
+
+
 ## [1.0.6](https://github.com/exile-watch/writ/compare/@exile-watch/writ-icons@1.0.5...@exile-watch/writ-icons@1.0.6) (2024-04-13)
 
 
