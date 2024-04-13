@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.8](https://github.com/exile-watch/writ/compare/@exile-watch/writ-icons@1.0.7...@exile-watch/writ-icons@1.0.8) (2024-04-13)
+
+
+### ⚙️ Internal
+
+* add missing biome configs to packages ([fb71810](https://github.com/exile-watch/writ/commit/fb7181074d530e768c2d18040b7dbbba2b92c953))
+
+
+
 ## [1.0.7](https://github.com/exile-watch/writ/compare/@exile-watch/writ-icons@1.0.6...@exile-watch/writ-icons@1.0.7) (2024-04-13)
 
 
