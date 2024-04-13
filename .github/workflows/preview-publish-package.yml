@@ -1,4 +1,4 @@
-name: "@exile-watch/doryani"
+name: "Preview publish package: @exile-watch / doryani"
 
 on:
   pull_request_target:
@@ -8,6 +8,7 @@ on:
 jobs:
   preview-publish-package:
     runs-on: ubuntu-latest
+    if: contains(github.event.pull_request.labels.*.name, 'preview-publish')
     steps:
       - name: Checkout source code
         uses: actions/checkout@v4
