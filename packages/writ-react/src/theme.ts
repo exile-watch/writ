@@ -1,4 +1,8 @@
-import { type MantineColorsTuple, createTheme } from "@mantine/core";
+import {
+  type MantineColorsTuple,
+  MantineTheme,
+  createTheme,
+} from "@mantine/core";
 
 const sand: MantineColorsTuple = [
   "#fff9e6",
@@ -13,7 +17,8 @@ const sand: MantineColorsTuple = [
   "#a67e00",
 ];
 
-export const theme = createTheme({
+// any because Mantine broke...
+export const theme: any = createTheme({
   primaryColor: "sand",
   colors: {
     sand,
