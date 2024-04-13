@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@1.0.3...@exile-watch/writ-react@1.0.4) (2024-04-13)
+
+
+### ⚙️ Internal
+
+* experiment with module ([6560311](https://github.com/exile-watch/writ/commit/6560311076b17482a4b93f13eec042ef8d06a7fc))
+* format ([e192447](https://github.com/exile-watch/writ/commit/e19244788e70bf7a90313f2f18ad2c4a1d88621a))
+
+
+
 ## [1.0.3](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@1.0.2...@exile-watch/writ-react@1.0.3) (2024-04-13)
 
 
