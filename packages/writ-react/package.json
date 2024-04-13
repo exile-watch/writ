@@ -1,6 +1,6 @@
 {
   "name": "@exile-watch/writ-react",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Shared design system of React components for exile.watch fronted projects",
   "homepage": "https://github.com/exile-watch/writ/pkgs/npm/writ-react",
   "repository": {
@@ -11,7 +11,9 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "_clean": "del-cli dist",
     "_build": "rollup -c",
@@ -27,7 +29,7 @@
     "@exile-watch/postcss-config": "^1.1.0",
     "@exile-watch/rollup-config": "^1.1.1",
     "@exile-watch/typescript-config": "^1.1.0",
-    "@exile-watch/writ-icons": "^1.0.4",
+    "@exile-watch/writ-icons": "^1.0.5",
     "@types/react": "^18.2.55",
     "classnames": "^2.5.1",
     "del-cli": "^5.1.0",
@@ -58,5 +60,7 @@
     "registry": "https://npm.pkg.github.com/",
     "access": "public"
   },
-  "workspaces": ["packages/*"]
+  "workspaces": [
+    "packages/*"
+  ]
 }
