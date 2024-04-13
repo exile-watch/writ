@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/@biomejs/biome/configuration_schema.json",
+  "extends": ["@exile-watch/biome-config"],
+  "files": {
+    "ignore": ["src/tbd"]
+  },
+  "linter": {
+    "rules": {
+      "a11y": {
+        "noSvgWithoutTitle": "off"
+      }
+    }
+  }
+}

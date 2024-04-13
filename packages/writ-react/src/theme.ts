@@ -1,4 +1,4 @@
-import {createTheme, MantineColorsTuple} from "@mantine/core";
+import { type MantineColorsTuple, createTheme } from "@mantine/core";
 
 const sand: MantineColorsTuple = [
   "#fff9e6",
@@ -10,21 +10,21 @@ const sand: MantineColorsTuple = [
   "#f2bc21",
   "#d7a515",
   "#bf930a",
-  "#a67e00"
-]
+  "#a67e00",
+];
 
 export const theme = createTheme({
-  primaryColor: 'sand',
+  primaryColor: "sand",
   colors: {
-    sand
+    sand,
   },
   breakpoints: {
-    xs: '36em',
-    sm: '48em',
-    md: '62em',
-    lg: '75em',
-    xl: '88em',
-    xxl: '120em', // 1920px
-    xxxl: '160em', // 2560px
-  }
+    xs: "36em",
+    sm: "48em",
+    md: "62em",
+    lg: "75em",
+    xl: "88em",
+    xxl: "120em", // 1920px
+    xxxl: "160em", // 2560px
+  },
 });

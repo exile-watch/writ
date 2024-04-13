@@ -1,2 +1,2 @@
-export {useMediaQuery} from "./useMediaQuery";
-export {useDisclosure} from "@mantine/hooks"
+export { useMediaQuery } from "./useMediaQuery";
+export { useDisclosure } from "@mantine/hooks";

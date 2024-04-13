@@ -1,4 +1,4 @@
- type IndexedSearchResultsBossProps = {
+type IndexedSearchResultsBossProps = {
   mapPath: string;
   mapName: string;
   bossPath: string;
@@ -9,7 +9,12 @@
 
 type IndexedSearchResultsProps = Array<IndexedSearchResultsBossProps> | null;
 
-type SupportedDamageTypes = 'fire' | 'lightning' | 'cold' | 'chaos' | 'physical';
+type SupportedDamageTypes =
+  | "fire"
+  | "lightning"
+  | "cold"
+  | "chaos"
+  | "physical";
 
 type SingleBossDataType = {
   name: string;
@@ -40,7 +45,7 @@ type BossAbilityType = {
   [abilityName: string]: PureBossAbilityType;
 };
 
-type Themes = 'light' | 'dark';
+type Themes = "light" | "dark";
 
 export type {
   Themes,
@@ -51,5 +56,5 @@ export type {
   SingleBossDataType,
   SupportedDamageTypes,
   IndexedSearchResultsProps,
-  IndexedSearchResultsBossProps
-}
+  IndexedSearchResultsBossProps,
+};

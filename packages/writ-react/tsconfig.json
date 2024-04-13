@@ -7,16 +7,10 @@
     "rootDir": "./src",
     "esModuleInterop": true,
     "paths": {
-      "#types": [
-        "./src/types/index.ts"
-      ],
-      "#components": [
-        "./src/components"
-      ]
+      "#types": ["./src/types/index.ts"],
+      "#components": ["./src/components"]
     },
-    "typeRoots": [
-      "src/types"
-    ]
+    "typeRoots": ["src/types"]
   },
   "exclude": [
     "node_modules",
@@ -24,7 +18,7 @@
     "**/*.spec.ts",
     "**/*.spec.tsx",
     "**/*.stories.tsx",
-    "**/*.stories.ts",
+    "**/*.stories.ts"
   ],
-  "include": ["src"],
+  "include": ["src"]
 }

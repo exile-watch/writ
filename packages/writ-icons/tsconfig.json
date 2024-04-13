@@ -10,10 +10,9 @@
   "exclude": [
     "node_modules",
     "coverage",
-    "**/*.spec.ts",
-    "**/*.spec.tsx",
-    "**/*.stories.tsx",
-    "**/*.stories.ts",
+    "**/*.spec.ts*",
+    "**/*.stories.ts*",
+    "src/tbd/**"
   ],
-  "include": ["src"],
+  "include": ["src"]
 }

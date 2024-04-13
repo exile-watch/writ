@@ -13,20 +13,23 @@
   },
   "homepage": "https://github.com/exile-watch/writ#readme",
   "scripts": {
+    "postinstall": "npx lefthook install && lerna run build",
     "build": "lerna run build",
     "typecheck": "lerna run typecheck",
-    "postinstall": "lerna run build",
-    "lint": "exit 0",
-    "lint:apply": "exit 0",
-    "format": "exit 0"
+    "ci:typecheck": "lerna run ci:typecheck",
+    "ci:lint": "lerna run ci:lint",
+    "lint": "lerna run lint",
+    "lint:apply": "lerna run lint:apply",
+    "format": "lerna run format",
+    "test": "exit 0",
+    "cq": "lerna run cq"
   },
   "devDependencies": {
-    "@exile-watch/conventional-changelog-config": "^0.2.3",
-    "@exile-watch/lefthook-config": "^0.5.8",
-    "@exile-watch/typescript-config": "^0.3.2",
+    "@exile-watch/biome-config": "^1.1.0",
+    "@exile-watch/conventional-changelog-config": "^1.1.0",
+    "@exile-watch/lefthook-config": "^1.1.0",
+    "@exile-watch/typescript-config": "^1.1.0",
     "lerna": "^8.1.2"
   },
-  "workspaces": [
-    "packages/*"
-  ]
+  "workspaces": ["packages/*"]
 }

@@ -1,8 +1,14 @@
-import React from 'react'
-import {HeadlessMantineProvider, HeadlessMantineProviderProps} from "@mantine/core";
-import {theme} from "../theme";
+import {
+  HeadlessMantineProvider,
+  type HeadlessMantineProviderProps,
+} from "@mantine/core";
+import React from "react";
+import { theme } from "../theme";
 
-const MockWritProvider = ({children, ...props}: HeadlessMantineProviderProps) => {
+const MockWritProvider = ({
+  children,
+  ...props
+}: HeadlessMantineProviderProps) => {
   return (
     <HeadlessMantineProvider theme={theme} {...props}>
       {children}
@@ -10,4 +16,4 @@ const MockWritProvider = ({children, ...props}: HeadlessMantineProviderProps) =>
   );
 };
 
-export {MockWritProvider};
+export { MockWritProvider };

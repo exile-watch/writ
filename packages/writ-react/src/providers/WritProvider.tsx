@@ -1,8 +1,8 @@
-import React from 'react'
-import {MantineProvider, MantineProviderProps} from "@mantine/core";
-import {theme} from "../theme";
+import { MantineProvider, type MantineProviderProps } from "@mantine/core";
+import React from "react";
+import { theme } from "../theme";
 
-const WritProvider = ({children, ...props}: MantineProviderProps) => {
+const WritProvider = ({ children, ...props }: MantineProviderProps) => {
   return (
     <MantineProvider forceColorScheme="dark" theme={theme} {...props}>
       {children}
@@ -10,4 +10,4 @@ const WritProvider = ({children, ...props}: MantineProviderProps) => {
   );
 };
 
-export {WritProvider};
+export { WritProvider };

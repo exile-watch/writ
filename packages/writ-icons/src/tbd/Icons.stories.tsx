@@ -1,74 +1,83 @@
-import { Meta, Story } from '@storybook/react';
+import * as React from 'react';
+// import { Meta, Story } from "@storybook/react";
 
-import { Heading } from '#components';
+// import { Heading } from "#components";
 
-import * as icons from '../index';
+import * as icons from "../index";
 
 const classes = [
-  'WitchIcon',
-  'ScionIcon',
-  'ShadowIcon',
-  'DuelistIcon',
-  'MarauderIcon',
-  'TemplarIcon',
-  'MarauderIcon',
+  "WitchIcon",
+  "ScionIcon",
+  "ShadowIcon",
+  "DuelistIcon",
+  "MarauderIcon",
+  "TemplarIcon",
+  "MarauderIcon",
 ];
 
 const ascendancies = [
-  'AscendantIcon',
-  'BerserkerIcon',
-  'ChieftainIcon',
-  'JuggernoutIcon',
-  'DeadeyeIcon',
-  'PathfinderIcon',
-  'RaiderIcon',
-  'RangerIcon',
-  'ElementalistIcon',
-  'NecromancerIcon',
-  'OccultistIcon',
-  'HierophantIcon',
-  'GuardianIcon',
-  'InquisitorIcon',
-  'SlayerIcon',
-  'GladiatorIcon',
-  'ChampionIcon',
-  'AssassinIcon',
-  'TricksterIcon',
-  'SaboteurIcon',
+  "AscendantIcon",
+  "BerserkerIcon",
+  "ChieftainIcon",
+  "JuggernoutIcon",
+  "DeadeyeIcon",
+  "PathfinderIcon",
+  "RaiderIcon",
+  "RangerIcon",
+  "ElementalistIcon",
+  "NecromancerIcon",
+  "OccultistIcon",
+  "HierophantIcon",
+  "GuardianIcon",
+  "InquisitorIcon",
+  "SlayerIcon",
+  "GladiatorIcon",
+  "ChampionIcon",
+  "AssassinIcon",
+  "TricksterIcon",
+  "SaboteurIcon",
 ];
 
-const slots = ['MainhandIcon', 'OffhandIcon', 'BodyIcon', 'HelmetIcon', 'GlovesIcon', 'BootsIcon'];
+const slots = [
+  "MainhandIcon",
+  "OffhandIcon",
+  "BodyIcon",
+  "HelmetIcon",
+  "GlovesIcon",
+  "BootsIcon",
+];
 
 const formats = [
-  'FormatBoldIcon',
-  'FormatItalicIcon',
-  'FormatUnderlineIcon',
-  'FormatCodeIcon',
-  'FormatHeadingOneIcon',
-  'FormatHeadingTwoIcon',
-  'FormatQuoteIcon',
-  'FormatBulletedListIcon',
-  'FormatNumberedListIcon',
+  "FormatBoldIcon",
+  "FormatItalicIcon",
+  "FormatUnderlineIcon",
+  "FormatCodeIcon",
+  "FormatHeadingOneIcon",
+  "FormatHeadingTwoIcon",
+  "FormatQuoteIcon",
+  "FormatBulletedListIcon",
+  "FormatNumberedListIcon",
 ];
 
-const infos = ['InfoIcon', 'SuccessIcon', 'WarningIcon', 'ErrorIcon'];
+const infos = ["InfoIcon", "SuccessIcon", "WarningIcon", "ErrorIcon"];
 
-const fillMisc = ['MoonIcon', 'SunIcon', 'VerticalMenuIcon', 'PreviewIcon'];
+const fillMisc = ["MoonIcon", "SunIcon", "VerticalMenuIcon", "PreviewIcon"];
 
 const strokeMisc = [
-  'ArrowDownIcon',
-  'ArrowRightIcon',
-  'LinkIcon',
-  'RedirectIcon',
-  'SearchIcon',
-  'TrashIcon',
-  'AddIcon',
-  'CommentsIcon',
-  'CrossIcon',
-  'EditIcon',
+  "ArrowDownIcon",
+  "ArrowRightIcon",
+  "LinkIcon",
+  "RedirectIcon",
+  "SearchIcon",
+  "TrashIcon",
+  "AddIcon",
+  "CommentsIcon",
+  "CrossIcon",
+  "EditIcon",
 ];
 
-const filterBy = (arr: any) => Object.entries(icons).filter(([k]) => arr.includes(k));
+const filterBy = (arr: any) =>
+  Object.entries(icons).filter(([k]) => arr.includes(k));
 
 const classIcons = filterBy(classes);
 const ascendancyIcons = filterBy(ascendancies);
@@ -78,21 +87,25 @@ const infoIcons = filterBy(infos);
 const fillMiscIcons = filterBy(fillMisc);
 const strokeMiscIcons = filterBy(strokeMisc);
 
-const Group = ({ group, icons, className = 'icons' }: any) => (
+const Group = ({ group, icons, className = "icons" }: any) => (
   <>
-    <Heading as="h2" className={`mb-3 ${group !== 'Class' && 'mt-5'}`}>
-      {group} Icons
-    </Heading>
-    <div className={className} style={{ display: 'flex', flexWrap: 'wrap' }}>
+    {/*<Heading as="h2" className={`mb-3 ${group !== "Class" && "mt-5"}`}>*/}
+    {/*  {group} Icons*/}
+    {/*</Heading>*/}
+    <div className={className} style={{ display: "flex", flexWrap: "wrap" }}>
       {icons.map(([k, Icon]: any) => (
         <div
           key={k}
-          style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
           className="mr-3 mb-3"
         >
           <Icon
-            width={['icons', 'stroke'].includes(className) ? 40 : 60}
-            height={['icons', 'stroke'].includes(className) ? 40 : 60}
+            width={["icons", "stroke"].includes(className) ? 40 : 60}
+            height={["icons", "stroke"].includes(className) ? 40 : 60}
             className="mb-2"
           />
           <p>{k}</p>
@@ -114,14 +127,14 @@ const Icons = () => (
   </>
 );
 
-export default {
-  title: 'Icons',
-  component: Icons,
-  parameters: {
-    viewMode: 'docs',
-  },
-} as Meta;
-
-const Template: Story = (args) => <Icons {...args} />;
-
-export const All = Template.bind({});
+// export default {
+//   title: "Icons",
+//   component: Icons,
+//   parameters: {
+//     viewMode: "docs",
+//   },
+// } as Meta;
+//
+// const Template: Story = (args) => <Icons {...args} />;
+//
+// export const All = Template.bind({});

@@ -11,16 +11,16 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "_clean": "del-cli dist",
     "_build": "rollup -c",
     "build": "npm run _build",
-    "test": "NODE_ENV=testing jest --coverage",
-    "test:watch": "NODE_ENV=testing jest --watchAll",
-    "test:watch:coverage": "jest --watchAll --coverage",
+    "ci:lint": "npx @biomejs/biome ci .",
+    "lint": "npx @biomejs/biome check .",
+    "lint:apply": "npx @biomejs/biome check --apply .",
+    "format": "npx @biomejs/biome format --write .",
+    "cq": "npm run format && npm run lint:apply",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
@@ -58,7 +58,5 @@
     "registry": "https://npm.pkg.github.com/",
     "access": "public"
   },
-  "workspaces": [
-    "packages/*"
-  ]
+  "workspaces": ["packages/*"]
 }
