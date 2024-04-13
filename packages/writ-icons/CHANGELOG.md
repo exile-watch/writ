@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.6](https://github.com/exile-watch/writ/compare/@exile-watch/writ-icons@1.0.5...@exile-watch/writ-icons@1.0.6) (2024-04-13)
+
+
+### 🐞 Bug Fixes
+
+* update main entry file ([18e3346](https://github.com/exile-watch/writ/commit/18e334678eb0cb4541987b4df7d28a43ff4a7744))
+
+
+
 ## [1.0.5](https://github.com/exile-watch/writ/compare/@exile-watch/writ-icons@1.0.4...@exile-watch/writ-icons@1.0.5) (2024-04-13)
 
 
