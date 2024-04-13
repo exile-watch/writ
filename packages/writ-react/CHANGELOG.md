@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.7.2...@exile-watch/writ-react@1.0.1) (2024-04-13)
+
+
+### ⚙️ Internal
+
+* bump exile watch packages, add biome and run formatter and linter ([9c6ecc3](https://github.com/exile-watch/writ/commit/9c6ecc3f2b875b548b774ee0c0d55bcfd137e9f8))
+* manually bump to 1.0.0 and update gha workflows ([e664cac](https://github.com/exile-watch/writ/commit/e664cac51bf09d8175be58a2d5c67afe75579f2f))
+
+
+
 ## [0.7.2](https://github.com/exile-watch/writ/compare/@exile-watch/writ-react@0.7.1...@exile-watch/writ-react@0.7.2) (2024-03-18)
 
 
