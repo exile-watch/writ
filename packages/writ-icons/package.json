@@ -25,8 +25,8 @@
     "svgr": "npx @svgr/cli --svgo-config .svgrrc.js --out-dir src -- src/svg && npm run format"
   },
   "devDependencies": {
-    "@exile-watch/rollup-config": "^0.2.0",
-    "@exile-watch/typescript-config": "^0.3.0",
+    "@exile-watch/rollup-config": "^1.1.0",
+    "@exile-watch/typescript-config": "^1.1.0",
     "@svgr/cli": "^8.1.0",
     "@types/react": "^18.2.55",
     "del-cli": "^5.1.0",
